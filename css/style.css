@@ -1,0 +1,233 @@
+:root {
+    --main-bg-color:#207637;
+    --main-text-color:#fdfcff;
+    --second-text-color:#e6e6e6;
+    --second-bg-color:#dc5b11;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("../img/Ensitech.jpeg") left/cover no-repeat;
+    height: 100vh;
+
+
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login{
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px #808080;
+    animation: scaleUp 0.40s ease-out ;
+    cursor: context-menu;
+}
+
+@keyframes scaleUp {
+    from{transform: scale(0.5);}
+    to{transform: scale(1);}
+}
+
+h4{
+    font-size: 23px;
+}
+
+#graduation-icon{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.d-grid p, .d-grid p a{
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.d-grid button a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.form-control, .form-select{
+    transition: 0.55s linear;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .login{
+        animation: scaleUpPhone 0.40s ease-out ;
+    }
+    @keyframes scaleUpPhone {
+        0%{transform: scale(0.5);}
+        70%{transform: scale(1.1);}
+        100%{transform: scale(1);}
+    }
+}
+
+/*
+.primary-text {
+    color: var(--main-text-color);
+}
+
+.second-text {
+    color: var(--main-text-color);
+}
+.primary-bg {
+    background-color: var(--second-bg-color);
+}
+.second-bg {
+    background-color: var(--second-bg-color);
+}
+.rounded-full {
+    border-radius: 100%;
+}
+#wrapper {
+    overflow-x:hidden ;
+    background-image: linear-gradient(
+        to right,
+        #dcd1f8f7,
+        #edeef5,
+        #e7e7ed,
+        #e2e4ec
+    );
+}
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+#sidebar-content-wrapper {
+    min-width: 100vh;
+}
+#wrapper .toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+#menu-toggle {
+    cursor: pointer;
+}
+.list-group-item {
+    border: none;
+    padding: 20px 10px;
+}
+.list-group-item.active {
+    background-color: blanchedalmond;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+}
+/*
+.container{
+    to
+    position: relative;
+    width: 70vw;
+    height: 80vh;
+    background: url(assets/img/Ensitech.jpeg);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px 0 rgb(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}*/
+/*
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+.social-icon {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+a { 
+    text-decoration: none;
+}
+*/
+/*
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+    
+}
+
+    .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}
+    */
+
+    .container-fluid {
+        margin-left: 200px;
+        padding: 20px;
+    }
+    
+    .card-header {
+        font-weight: bold;
+    }
+    
+    .navbar {
+        margin-bottom: 0;
+    }
+    
+    .navbar-brand, .nav-link, .navbar-text {
+        color: white !important;
+    }
+    
+    .card {
+        justify-content: center;
+    }
+
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+}
+
